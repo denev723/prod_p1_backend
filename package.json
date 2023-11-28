@@ -1,0 +1,36 @@
+{
+  "name": "prod_p1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server --delay 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denev723/prod_p1_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denev723/prod_p1_backend/issues"
+  },
+  "homepage": "https://github.com/denev723/prod_p1_backend#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.3",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.3",
+    "nodemon": "^3.0.1",
+    "prisma": "^5.6.0"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "@graphql-tools/load-files": "^7.0.0",
+    "@graphql-tools/merge": "^9.0.1",
+    "@graphql-tools/schema": "^10.0.2",
+    "dotenv": "^16.3.1",
+    "graphql": "^16.8.1"
+  }
+}
