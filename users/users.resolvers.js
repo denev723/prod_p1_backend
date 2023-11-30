@@ -1,5 +1,5 @@
+import client from "../client";
+
 export default {
-  Query: {
-    hello: () => "world",
-  },
+  User: {},
 };

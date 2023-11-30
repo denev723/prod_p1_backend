@@ -1,5 +1,17 @@
 export default `# graphql
-type Query {
-	hello: String
+type User {
+	id : Int!
+	username: String!
+	password: String!
+	userType: userType
+	createdAt: String!
+	updatedAt: String!
+
+}
+enum userType {
+	DEV
+	ADMIN
+	SUBADMIN
+	USER
 }
 `
